@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <title>Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="/Pictures/p38.ico">
+</head>
+
+<body>
+    <h1>Dashboard</h1>
+    <div class="navbar">
+        <a href="index.html" class="button leftbutton">Hoofdpagina</a>
+        <a href="profile.html" class="button">Profielpagina</a>
+        <a href="dashboard.html" class="button rightbutton active">Dashboard</a>
+    </div>
+
+    <div class="container">
+        <div class="textbox">
+            <h2>Studiemonitor</h2>
+            <p class="indextext">
+                Hieronder is de studiemonitor te vinden van het propedeusejaar.
+                <br />Legenda:
+                <div class="indextext greenlegenda">Groen = voltooid</div>
+                <div class="indextext">Geel = mee bezig</div>
+                <div class="indextext redlegenda">Rood = herkansen</div>
+                <div class="indextext whitelegenda">Wit = nog niet mee begonnen</div>
+            </p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="4">Propedeusejaar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Blok 1</td>
+                        <td>Blok 2</td>
+                        <td>Blok 3</td>
+                        <td>Blok 4</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tablebusy">Opleiding- en beroepsoriëntatie - 2.5 EC<br />Toets 1 - 100%</td>
+                        <td>Professional Skills 1 - 2.5 EC<br />Portfolio - 70%<br />Assessment - 30%<br />Taaltoets Nederlands</td>
+                        <td>Professional Skills 2 - 2.5 EC<br />Toets 1 - 50%<br />Toets 2 - 50%</td>
+                        <td>Professional Skills 3 - 2.5 EC<br />Toets 1 - 50%<br />Toets 2 - 50%</td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tablecompleted">Computer Science Basics - 7.5 EC<br />Theorietentamen - 100%</td>
+                        <td>HZ Personality 2A - 2.5 EC<br />Portfoliotoets met optioneel assessment - 100%</td>
+                        <td>Professionele werkplek - 2.5 EC<br />Toets 1 - 100%</td>
+                        <td>IT Personality 2A - 2.5 EC<br />Portfoliotoets met optioneel assessment - 100%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tableretry">Programming Basics - 5 EC<br />Casustoets - 100%</td>
+                        <td>Object Oriented Programming - 10 EC<br />Casustoets - 50%<br />Groepsopdracht - 50%</td>
+                        <td>Framework Development 1 - 5 EC<br />Toets 1 - 100%</td>
+                        <td>Framework Development 2 - 5 EC<br />Toets 2 - 100%</td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>Framework Project 1 - 5 EC<br />Toets 1 - 100%</td>
+                        <td>Framework Project 2 - 5 EC<br />Toets 1 - 100%</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4" class="tablebusy">Behaalde EC's: 0 EC</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="tableretry">NSBA: 45 EC</td>
+                        <!-- change to green when reached -->
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <div class="textbox">
+            <h2>Studiewijzer</h2>
+            <p class="indextext">
+                Hieronder zijn enkele handige links te vinden: <!--open links in new tab-->
+                <ul class="indextext">
+                    <li><a class="dashboardlinks" href="/Studiewijzer/oer.pdf">Het OER (Onderwijs en Examenreglement)</a></li>
+                    <li><a class="dashboardlinks" href="/Studiewijzer/ur.pdf">Het UR (Uitvoeringsreglement) van HBO-ICT</a></li>
+                    <li><a class="dashboardlinks" href="https://learn.hz.nl/my/">Learn.HZ</a></li>
+                    <li><a class="dashboardlinks" href="https://hz-hbo-ict.slack.com/messages/CCBLXTL05/">De HBO-ICT Slack</a></li>
+                    <li><a class="dashboardlinks" href="https://apps.hz.nl/angular/studievoortgang/studiestatus">Studievoortgang</a></li>
+                    <li><a class="dashboardlinks" href="https://www.github.com/hz-hbo-ict">De HBO-ICT GitHub</a></li>
+                    <li><a class="dashboardlinks" href="/Studiewijzer/jaarrooster1819.pdf">Het jaarrooster van 2018/2019</a></li>
+                </ul>
+            </p>
+        </div> 
+        <footer>
+            <span class="footertext">&copy; Edwin Uijl - 2018</span>
+        </footer>
+    </div>
+
+    <!-- dropdown menu -->
+</body>
+</html>
+<!-- colours:   yellow: FFC528 
+                dark yellow: B2860E
+                light yellow: FFCC43
+                dark blue: 002AB2
+                light blue: 285AFF-->

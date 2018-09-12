@@ -1,0 +1,261 @@
+* {
+    font-family: 'Trebuchet MS', serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.navbar {
+    font-size: 20px;
+    background-color: #002AB2;
+    
+    margin: 0px;
+    text-align: left;
+    padding: 10px;
+}
+
+h1 {
+    color: #FFC528;
+    background-color: #002AB2;
+    font-size: 64px;
+    margin: 0px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #FFC528;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #FFC528;
+    border: none;
+    color: #002AB2;
+    font-weight: bold;
+    width: 120px;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    padding: 15px 59px;
+    background-color: #B2860E;
+}
+
+.button:active {
+    padding: 15px 58px;
+    background-color: #B2860E;
+}
+
+.active {
+    color: #285AFF;
+}
+
+.leftbutton {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.rightbutton {
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+
+.container {
+    width: 90%;
+    left: 5%;
+    color: #FFC528;
+    border-radius: 15px 0px 0px 0px;
+    border-color: #002AB2;
+    border-width: 5px;
+    margin: 0 auto;
+}
+
+.titletextbox {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.textboxpicture {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.textbox {
+    margin-top: 40px;
+    border-style: solid none none solid;
+    background-color: #285AFF;
+    border-radius: 15px 0px 0px 0px;
+    border-color: #002AB2;
+    padding: 10px;
+}
+
+.indextext {
+    padding-left: 50px;
+}   
+
+footer {
+    margin-top: 40px;
+    text-align: right;
+    background-color: #285AFF;
+    border-style: solid solid none solid;
+    border-radius: 15px 15px 0px 0px;
+    border-color: #002AB2;
+}
+
+.footertext {
+    padding-top: 60px;
+    padding-right: 40px;
+}
+
+.picturefrontpage {
+    margin: 10px;
+    height: 412.8px;
+    width: 232px;
+    border: 2px solid #002AB2;
+}
+
+.pictureprofilepage {
+    border: 2px solid #002AB2;
+    margin: 10px;
+    transform: rotate(270deg);
+    height: 200px;
+    width: auto;
+}
+
+.warthunderpictures {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mySlides {
+    width: 1497.6px;
+    height: 842.4px;
+    border-color: #002AB2;
+    border-style: solid solid none solid;
+    border-radius: 15px 0px 0px 0px;
+    position: relative;
+}
+
+.buttoncontainer {
+    width: 1497.6px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.carouselbuttonleft {
+    opacity: .7;
+    width: 50%;
+    background-color: #FFC528;
+}
+
+.carouselbuttonright {
+    opacity: .7;
+    width: 50%;
+    background-color: #FFC528;
+}
+
+.witcher3story {
+    background-color: rgb(229, 235, 240);
+    padding-left: 5px;
+    margin-top: 50px;
+}
+
+.witcher3page {
+    color: #242424;
+    font-family: 'Trebuchet MS', serif;
+}
+
+.storydiv {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.dashboardlinks:link {
+    color: #FFC528;
+}
+
+.dashboardlinks:visited {
+    color: #B2860E;
+}
+
+.dashboardlinks:hover {
+    color: #FFCC43;
+}
+
+.hufflepuff:link {
+    color: #FFC528;
+}
+
+.hufflepuff:visited {
+    color: #B2860E;
+}
+
+.hufflepuff:hover {
+    color: #FFCC43;
+}
+
+table, td {
+    border: 1px solid #002AB2;
+    padding: 5px;
+    background-color: #ffffff;
+    color: #242424;
+}
+
+th {
+    padding: 10px;
+}
+
+table {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+thead, tfoot {
+    background-color: #002AB2;
+    color: #FFC528;
+    padding: 10px;
+}
+
+.tablebusy {
+    background-color: #FFCC43
+}
+
+.tableretry {
+    background-color: #FF3500;
+}
+
+.tablecompleted {
+    background-color: #00C90E;
+}
+
+.greenlegenda {
+    color: #00C90E;
+}
+
+.redlegenda {
+    color: #FF3500;
+}
+
+.whitelegenda {
+    color: #ffffff;
+}

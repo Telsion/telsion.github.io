@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="/Pictures/p38.ico">
+    <title>Utmost Secrecy</title>
+</head>
+
+<body>
+    <h1>Verborgen pagina</h1>
+    <div class="navbar">
+        <a href="index.html" class="button leftbutton">Hoofdpagina</a>
+        <a href="profile.html" class="button">Profielpagina</a>
+        <a href="dashboard.html" class="button rightbutton">Dashboard</a>
+    </div>
+
+    <div class="container">
+        <div class="textbox">
+            <p class="indextext">
+                Je hebt het gehaald! Het was niet zo moeilijk, toch?
+                <br />Misschien vraag je je af waarom je in zo een afgelegen bestand zit. Dat is eigenlijk heel simpel.
+                Het is gewoon leuk om te doen!
+                <br /><i>Now, listen to the ever increasing sound of war.</i>
+                <br /><audio
+                    id="gunfire"
+                    controls
+                    src="/Sounds/gunfire.wav">
+                    Your browser does not support the <code>audio</code> element.
+                </audio>
+                <br /><br />Zoals al eerder genoemd, ben ik een grote fan van vliegtuigen. En niets is er zo geweldig dan het geluid van een 
+                Rolls Royce Merlin.
+                <br /><audio
+                    id="rollsroycemerlin"
+                    controls
+                    src="/Sounds/spitfire_rear_03.wav">
+                    Your browser does not support the <code>audio</code> element.
+                </audio>
+            </p>
+
+            <p class="indextext">
+                En om het af te leren, hier nog een paar screenshots om dit project af te sluiten.
+            </p>
+
+            <div class="warthunderpictures">
+                                
+                <img class="mySlides" src="/Pictures/he100.png" alt="He-100 taking off">
+                <img class="mySlides" src="/Pictures/mig15.png" alt="MiG-15 taking off">
+                <img class="mySlides" src="/Pictures/closepass.png" alt="MiG-15 and FJ-4B pass one another">
+                <img class="mySlides" src="/Pictures/cockpit.png" alt="MiG-15 pilot sees FJ-4B pass close by">
+    
+                <div class="buttoncontainer">
+                    <button class="carouselbuttonleft" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="carouselbuttonright" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+            </div>
+    
+            <script src="carousel.js"></script>
+
+        </div>
+        <footer>
+            <span class="footertext">&copy; Edwin Uijl - 2018</span>
+        </footer>
+    </div>
+</body>
+
+</html>

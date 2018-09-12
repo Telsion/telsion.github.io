@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <title>Profielpagina</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="Pictures/p38.ico">
+</head>
+
+<body>
+    <h1>Profielpagina</h1>
+    <div class="navbar">
+        <a href="index.html" class="button leftbutton">Hoofdpagina</a>
+        <a href="profile.html" class="button active">Profielpagina</a>
+        <a href="dashboard.html" class="button rightbutton">Dashboard</a>
+    </div>
+
+    <div class="container">
+        <div class="textbox">
+            <div>
+                <h2>Introductie</h2>
+            </div>
+            <div>
+                <p class="indextext">Ik ben Edwin Uijl, 19 jaar oud, en woon in Middelburg op kamers. Ik heb hiervoor VWO gedaan en dat succesvol afgerond.
+                <br />Ik ben een fan van de Harry Potter boekenserie, en ben een trotse 
+                    <a class="hufflepuff" href="http://harrypotter.wikia.com/wiki/Hufflepuff">Hufflepuff</a>.
+                <br /><br />Mijn kenmerken zijn:
+                    <ul class="indextext">
+                        <li>Betrouwbaar</li>
+                        <li>Punctueel</li>
+                        <li>Eerst denken, dan doen</li>
+                        <li>Harde werker</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="titletextbox">
+                <h3>Hobby's</h3>
+            </div>
+
+            <div class="textboxpicture">
+                <p class="indextext">Ik game veel. Ik heb een grote vaiatie aan games die ik speel. Tot deze lijst horen strategiegames, 
+                zowel turn based als real time (Total War games, Civilization V, XCOM 2, Hearts of Iron IV, Age of Empires II), RPG's (Witcher 3), 
+                multiplayer games (War Thunder), en een lange lijst aan andere games, zoals Dying Light, Cuisine Royale, Wolfenstein The New Order en nog heel wat meer.
+                <br />Ik heb plannen om een mod te maken voor een strategie game, Total War Saga: Thrones of Britannia.
+                Dit zou mooi samen kunnen gaan met het onderwerp van het tweede blok, game development en het is sowieso
+                een leuke vrijetijdsbesteding.
+                <br />Ik heb vroeger veel gelezen. Nu is dat veel minder, maar ik kan nog steeds intens genieten van goede verhalen. 
+                Ik ben nu bezig met The Magician als luisterboek, iets dat ik hiervoor nog nooit heb gedaan.
+                <br />Tegenwoordig ben ik ook begonnen om te schrijven, een van die verhalen staat hieronder. De inspiratie hiervan kwam van een bossbattle uit de
+                Witcher 3.</p>
+
+                <img class="pictureprofilepage" src="/Pictures/edwinpuff.jpg" alt="Selfie of Edwin">
+            </div>
+
+            <div class="storydiv">
+                <iframe allowtransparency="true" class="witcher3story" src="witcher3.html" width="1497.6px" height="600px"></iframe>
+            </div>
+            <p class="indextext">Een andere grote passie is vliegtuigen, militaire vliegtuigen om meer specifiek te zijn, vooral uit de periode van de Tweede Wereldoorlog.
+                Een game die ik speel, War Thunder, gaat over die periode, en heeft ook de mogelijkheid om <i>artistic screenshots</i> te maken. Een paar van die
+                screenshots staan hieronder.</p>
+
+            <div class="warthunderpictures">
+                                
+                <img class="mySlides" src="/Pictures/spitfire_victorious.png" alt="Spitfire flies away from kill">
+                <a href="geheimepagina.html"><img class="mySlides" src="/Pictures/spitfire_firing.png" alt="Spitfire fires its guns"></a>
+                <img class="mySlides" src="/Pictures/WT Dutch P-38G.png" alt="Just a beautiful P-38 picture">
+
+                <div class="buttoncontainer">
+                    <button class="carouselbuttonleft" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="carouselbuttonright" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+            </div>
+
+            <script src="carousel.js"></script>
+        </div>
+        <footer>
+            <span class="footertext">&copy; Edwin Uijl - 2018</span>
+        </footer>
+    </div>
+</body>
+
+</html>
+
+<!--    general introduction
+        kenmerken
+        hobby's
+        plaatjes planes
+        iframe story
+        social media-->
